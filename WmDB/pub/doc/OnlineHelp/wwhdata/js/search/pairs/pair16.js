@@ -1,0 +1,19 @@
+function FileData_Pairs(x)
+{
+x.t("-2014","software");
+x.t("version","wmdb");
+x.t("refer","pdf");
+x.t("pdf","version");
+x.t("darmstadt","germany");
+x.t("guide","information");
+x.t("guide","wmdb");
+x.t("guide","2005");
+x.t("software","darmstadt");
+x.t("information","using");
+x.t("wmdb","package");
+x.t("wmdb","user\u2019s");
+x.t("package","refer");
+x.t("using","wmdb");
+x.t("user\u2019s","guide");
+x.t("2005","-2014");
+}

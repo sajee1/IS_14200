@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>About this Guide</title>
+    <link rel="StyleSheet" href="css/_wmdb_online_help.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+  <body style="background-color: White; margin-bottom: 25px; margin-left: 25px; margin-right: 25px; margin-top: 0px; padding-top: 0px" onload="WWHUpdate();" onunload="WWHUnload();" onkeydown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onkeypress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onkeyup="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <table align="left" role="presentation">
+      <tr>
+        <td class="WebWorks_Company_Logo_Top">
+          <img src="sag_online.png" />
+        </td>
+      </tr>
+    </table>
+    <br clear="all" />
+    <hr align="left" />
+    <blockquote>
+      <div class="nonumber"><a name="3_3_5_1">About this Guide</a></div>
+      <table class="note1" summary="">
+        <tr>
+          <td class="Table_Cell" style="vertical-align: top; width: 14.285714285714284%">
+            <div class="Note">
+              <span style="font-family: Arial, Verdana, Helvetica, Sans-Serif; font-weight: bold">Note:    </span><a name="3_3_5_3_2_1_3_1_1_2">&nbsp;</a></div>
+          </td>
+          <td class="Table_Cell" style="vertical-align: top; width: 85.71428571428571%">
+            <div class="Table_Cell"><span class="ph"><a name="3_3_5_3_2_1_3_1_2">webMethods</a></span> provides two methods for accessing databases:</div>
+            <div class="List_1_outer" style="margin-left: 24px">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="List_1_inner" style="width: 18pt; white-space: nowrap">
+                      <img src="bullet1.png" alt="*" border="0" width="10" height="10" />
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="List_1_inner"><span class="inlinetitle"><a name="3_3_5_3_2_1_3_1_2_5_2">WmDB package</a></span> to use for prototyping, design, or temporary database access.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="List_1_outer" style="margin-left: 24px">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="List_1_inner" style="width: 18pt; white-space: nowrap">
+                      <img src="bullet1.png" alt="*" border="0" width="10" height="10" />
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="List_1_inner"><span class="uicontrol"><a name="3_3_5_3_2_1_3_1_2_5_4">webMethods Adapter for JDBC</a></span> to use for all enterprise, mission critical applications.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="List_1_Continued"><a name="3_3_5_3_2_1_3_1_2_5_4_6">The </a><span class="ph"> </span><span class="Citation">WmDB User’s Guide</span><span class="ph"> </span> includes an appendix that describes use cases to help you determine when to use the WmDB package and when to use the <span class="ph">webMethods Adapter for JDBC</span>.</div>
+          </td>
+        </tr>
+      </table>
+      <div class="Body"><a name="3_3_5_3_4"> </a>  The WmDB package contains services and Dynamic Server Pages (DSPs) that you can use to build services that connect to databases. The <span class="ph">webMethods Integration Server</span> can connect to databases through WmDB flow services. In turn, these WmDB services can be invoked through Java and C/C++ clients.</div>
+      <div class="Body"><a name="3_3_5_3_6">Before a server can connect to a database, the server must first receive information about the database. You supply database connection information by configuring a database </a><span class="emphasis">alias</span>. Using the <span class="ph">Integration Server Administrator</span>, you can configure, update, and delete a database alias.</div>
+      <div class="Body"><a name="3_3_5_3_8"> </a> Once you have configured a database alias, you can use the <span class="ph">Integration Server Administrator</span> to build flow services that access the database. The resulting flow service invokes the same built-in services that you can invoke from Java and C/C++. Using the <span class="ph">Integration Server Administrator</span>, you can create a flow service in one of the following ways:</div>
+      <div class="List_1_outer" style="margin-left: 24px">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="List_1_inner" style="width: 18pt; white-space: nowrap">
+                <img src="bullet1.png" alt="*" border="0" width="10" height="10" />
+              </div>
+            </td>
+            <td width="100%">
+              <div class="List_1_inner"><span class="inlinetitle"><a name="3_3_5_3_8_13_2">Generate from tables.</a></span> You select the table that you want the service to access. Then, you select the database operation you want your service to perform (Select, Insert, Delete, or Update). The server displays the columns in the table that you can use to indicate the input that the service expects. When you use this option, the server automatically generates the required SQL statements.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="List_1_outer" style="margin-left: 24px">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="List_1_inner" style="width: 18pt; white-space: nowrap">
+                <img src="bullet1.png" alt="*" border="0" width="10" height="10" />
+              </div>
+            </td>
+            <td width="100%">
+              <div class="List_1_inner"><span class="inlinetitle"><a name="3_3_5_3_8_13_4">Generate from a SQL statement.</a></span> You specify the SQL statement that you want the service to perform. The SQL statement you specify can be more complex than the SQL statements the server generates when it generates a service from tables. In addition, you can specify database-specific SQL. Use this option if you want to use database-specific SQL that requires the fully qualified table names.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Body"><a name="3_3_5_3_10">Regardless of how you generate them, database flow services are all standard flow services. After a service is created, you can edit it using </a><span class="ph">Designer</span> in the same way you edit any other flow service. You can invoke the resulting database flow service from other services.</div>
+      <div class="Body"><a name="3_3_5_3_12">For more information about using WmDB and the </a><span class="ph">Integration Server Administrator</span>, see the <span class="ph"> </span><span class="Citation">WmDB User’s Guide</span><span class="ph"> </span>.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <div>
+      <hr />
+      <div style="font-family: Arial, Verdana, Helvetica, Sans-Serif; font-size: 12px;margin-top: 20px;margin-bottom: 20px;">
+        <span class="xref">
+          <a href="http://documentation.softwareag.com/legal/" target="external_window">Copyright © <span></span><span></span><span>2005</span><span>-2014</span> Software AG, Darmstadt, Germany</a>
+        </span>.</div>
+    </div>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

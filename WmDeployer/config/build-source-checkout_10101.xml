@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<!-- 
+This build file is a template Ant task that checks out sources from a version control system (VCS). 
+This template is specific to an SVN VCS, but you can modify it to work with your VCS. 
+
+NOTE: Do not change the name of this file.
+
+This Ant task relies on the third party open source library SvnAnt (http://subclipse.tigris.org/svnant.html). Set the location of the jar file libraries in the svn.jars.dir property.
+-->
+<project default="CheckOut" basedir=".">	
+	<property file="build.properties" />
+	<property name="cvsroot" value=":pserver:anonymous@openge.ge.com:/cvsroot/eai_wm_7x_upgrd"/>
+	<property name="modulename" value="PW_CVS/Dev/10101/"/>
+	<property name="build.checkout.dir" value="/tmp/Jenkins_WS_10101/CheckOut/IS"/>
+	<if>
+	<equals arg1="${build.checkout.dir}" arg2="" />
+	<then>
+	<fail>Please set "build.checkout.dir" property. </fail>			
+	</then>
+	</if>
+
+<target name="CheckOut" depends="clean" description="Update or check out required sources from CVS for the JSTL">
+<echo message="Checking out the required sources from CVS"/>
+ <cvs cvsRoot="${cvsroot}" package="${modulename}" dest="${build.checkout.dir}" />
+</target>
+<target name="clean" description="Clean up the checkout directory" >
+<delete dir="${build.checkout.dir}"/>
+	</target>
+	
+</project>
+

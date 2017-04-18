@@ -1,0 +1,21 @@
+function FileData_Pairs(x)
+{
+x.t("-2014","software");
+x.t("version","webmethods");
+x.t("integration","server");
+x.t("refer","pdf");
+x.t("administrator","refer");
+x.t("pdf","version");
+x.t("darmstadt","germany");
+x.t("guide","webmethods");
+x.t("guide","information");
+x.t("guide","2005");
+x.t("software","darmstadt");
+x.t("webmethods","integration");
+x.t("administrator\u2019s","guide");
+x.t("information","administering");
+x.t("administering","integration");
+x.t("server","administrator");
+x.t("server","administrator\u2019s");
+x.t("2005","-2014");
+}

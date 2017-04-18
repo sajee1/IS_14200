@@ -1,0 +1,11 @@
+2017-04-14 13:37:45 EDT Initiating Progress Report for the Build operation
+2017-04-14 13:37:45 EDT Starting deployer build for project GE_Package123Deployment
+2017-04-14 13:37:46 EDT  Processing deployment set myDeploymentSet
+2017-04-14 13:37:46 EDT Processing IS source server RepoISTarget2
+2017-04-14 13:37:46 EDT Initiating add operation on package GE_B2B to the build
+2017-04-14 13:37:47 EDT Done with the add operation on package GE_B2B to the build
+2017-04-14 13:37:47 EDT Initiating add operation on package GE_CentralEAI to the build
+2017-04-14 13:37:49 EDT Done with the add operation on package GE_CentralEAI to the build
+2017-04-14 13:37:49 EDT Completed processing IS source server RepoISTarget2
+2017-04-14 13:37:49 EDT Completed Processing Of deployment set myDeploymentSet
+2017-04-14 13:37:49 EDT Completed generating Progress Report for the Build operation.

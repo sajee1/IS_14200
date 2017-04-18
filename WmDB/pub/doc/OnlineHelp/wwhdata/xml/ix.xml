@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpIX version="5.0" xmlns="urn:WebWorks-Help-Index-Schema">
+  <g t="A" o="002">
+    <i t="adding database aliases">
+      <j l="4#3_3_7_4_6_2_5" />
+      <j l="5#3_3_7_5_6_2_5" />
+    </i>
+    <i t="alias management">
+      <i t="changing password">
+        <j l="7#3_3_7_7_6_2_5" />
+      </i>
+    </i>
+  </g>
+  <g t="B" o="002">
+    <i t="binding parameters">
+      <j l="13#3_3_7_13_6_2_5" />
+    </i>
+    <i t="bookmark a help topic">
+      <j l="1#3_3_3_3_6_7_2_8_8_4" />
+    </i>
+    <i t="building services that connect to a database">
+      <j l="2#3_3_5_3_4" />
+    </i>
+  </g>
+  <g t="C" o="002">
+    <i t="changing password">
+      <j l="5#3_3_7_5_6_2_21_2_4" />
+      <j l="6#3_3_7_6_6_2_21_2_4" />
+    </i>
+    <i t="changing password in alias management">
+      <j l="7#3_3_7_7_6_2_5" />
+    </i>
+    <i t="connecting to a database">
+      <j l="2#3_3_5_3_4" />
+      <j l="8#3_3_7_8_6_2_5" />
+    </i>
+    <i t="connection">
+      <j l="8#3_3_7_8_6_2_5" />
+    </i>
+    <i t="connection information">
+      <i t="adding a database alias">
+        <j l="5#3_3_7_5_6_2_5" />
+      </i>
+      <i t="editing">
+        <j l="6#3_3_7_6_6_2_5" />
+      </i>
+      <i t="limiting search for tables">
+        <j l="8#3_3_7_8_6_2_5" />
+      </i>
+      <i t="specifying for a database">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+      <i t="updating for a database alias">
+        <j l="6#3_3_7_6_6_2_5" />
+      </i>
+    </i>
+    <i t="connection pooling">
+      <i t="expiration time">
+        <j l="5#3_3_7_5_6_2_31_2_4" />
+      </i>
+      <i t="maximum number of connections">
+        <j l="5#3_3_7_5_6_2_29_2_4" />
+      </i>
+      <i t="minimum number of connections">
+        <j l="5#3_3_7_5_6_2_27_2_4" />
+      </i>
+    </i>
+    <i t="contents frame, help system">
+      <j l="1#3_3_3_3_4_7_2" />
+    </i>
+    <i t="creating flow services">
+      <j l="2#3_3_5_3_8" />
+      <j l="11#3_3_7_11_6_2_5" />
+      <i t="from tables">
+        <j l="9#3_3_7_9_6_2_5" />
+        <j l="10#3_3_7_10_6_2_5" />
+      </i>
+    </i>
+  </g>
+  <g t="D" o="002">
+    <i t="database al iases">
+      <i t="adding">
+        <j l="5#3_3_7_5_6_2_5" />
+      </i>
+    </i>
+    <i t="database aliases">
+      <i t="adding">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+      <i t="deleting">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+      <i t="editing">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+      <i t="specifying connection information">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+    </i>
+    <i t="database services">
+      <i t="creating flow services">
+        <j l="2#3_3_5_3_8" />
+      </i>
+    </i>
+    <i t="databases">
+      <i t="adding a database alias">
+        <j l="5#3_3_7_5_6_2_5" />
+      </i>
+      <i t="creating flow services">
+        <j l="11#3_3_7_11_6_2_5" />
+      </i>
+      <i t="input parameters">
+        <j l="13#3_3_7_13_6_2_5" />
+      </i>
+      <i t="operations for a service to perform">
+        <j l="10#3_3_7_10_6_2_5" />
+      </i>
+      <i t="submitting a SQL statement for testing">
+        <j l="9#3_3_7_9_6_2_13_2_4" />
+        <j l="10#3_3_7_10_6_2_19_2_4" />
+      </i>
+      <i t="tables">
+        <i t="creating flow">
+          <j l="9#3_3_7_9_6_2_5" />
+        </i>
+        <i t="creating flow services">
+          <j l="10#3_3_7_10_6_2_5" />
+        </i>
+        <i t="specifying access">
+          <j l="9#3_3_7_9_6_2_9_2_4" />
+        </i>
+      </i>
+    </i>
+    <i t="DB aliases">
+      <i t="changing password">
+        <j l="7#3_3_7_7_6_2_5" />
+      </i>
+    </i>
+    <i t="DELETE database operation">
+      <j l="10#3_3_7_10_6_2_13_2_8_6_4" />
+    </i>
+    <i t="deleting database aliases">
+      <j l="4#3_3_7_4_6_2_5" />
+    </i>
+    <i t="documentation">
+      <i t="using effectively">
+        <j l="2#3_3_5_3_4" />
+      </i>
+    </i>
+    <i t="drivers, currently loaded">
+      <j l="5#3_3_7_5_6_2_33_2_4" />
+    </i>
+  </g>
+  <g t="E" o="002">
+    <i t="editing connection information">
+      <j l="6#3_3_7_6_6_2_5" />
+    </i>
+    <i t="expiration time, for cached connections in a pool">
+      <j l="5#3_3_7_5_6_2_31_2_4" />
+    </i>
+  </g>
+  <g t="H" o="002">
+    <i t="help system">
+      <i t="contents frame">
+        <j l="1#3_3_3_3_4_7_2" />
+      </i>
+      <i t="create bookmark">
+        <j l="1#3_3_3_3_6_7_2_8_8_4" />
+      </i>
+      <i t="index frame">
+        <j l="1#3_3_3_3_4_7_4" />
+      </i>
+      <i t="navigation frame">
+        <j l="1#3_3_3_3_4_5" />
+      </i>
+      <i t="search frame">
+        <j l="1#3_3_3_3_4_7_6" />
+      </i>
+      <i t="show in contents">
+        <j l="1#3_3_3_3_6_7_2_8_4_4" />
+      </i>
+      <i t="show navigation">
+        <j l="1#3_3_3_3_6_7_2_8_2_4" />
+        <j l="1#3_3_3_3_6_7_2_8_6_4" />
+      </i>
+      <i t="toolbar frame">
+        <j l="1#3_3_3_3_6_5" />
+      </i>
+    </i>
+  </g>
+  <g t="I" o="002">
+    <i t="index frame, help system">
+      <j l="1#3_3_3_3_4_7_4" />
+    </i>
+    <i t="input parameters, specifying">
+      <j l="13#3_3_7_13_6_2_5" />
+    </i>
+    <i t="INSERT database operation">
+      <j l="10#3_3_7_10_6_2_13_2_8_4_4" />
+    </i>
+    <i t="Integration Server Administrator">
+      <i t="creating flow services">
+        <j l="2#3_3_5_3_8" />
+      </i>
+    </i>
+  </g>
+  <g t="J" o="002">
+    <i t="Java class location, server’s classpath">
+      <j l="5#3_3_7_5_6_2_25_1_3_1_2" />
+      <j l="6#3_3_7_6_6_2_25_1_3_1_2" />
+    </i>
+    <i t="Java class name, specifying for the JDBC driver">
+      <j l="5#3_3_7_5_6_2_23_2_4" />
+      <j l="6#3_3_7_6_6_2_23_2_4" />
+    </i>
+    <i t="Java classes, access">
+      <j l="5#3_3_7_5_6_2_25_1_3_1_2" />
+    </i>
+    <i t="JDBC drivers">
+      <i t="currently loaded">
+        <j l="5#3_3_7_5_6_2_33_2_4" />
+      </i>
+      <i t="specifying Java class name">
+        <j l="5#3_3_7_5_6_2_23_2_4" />
+        <j l="6#3_3_7_6_6_2_23_2_4" />
+      </i>
+    </i>
+  </g>
+  <g t="N" o="002">
+    <i t="navi gat ion frame, help system">
+      <j l="1#3_3_3_3_6_7_2_8_6_4" />
+    </i>
+    <i t="navigation frame, help system">
+      <j l="1#3_3_3_3_4_5" />
+    </i>
+  </g>
+  <g t="P" o="002">
+    <i t="passwords">
+      <i t="changing">
+        <j l="7#3_3_7_7_6_2_5" />
+      </i>
+    </i>
+    <i t="passwords, specifying">
+      <j l="5#3_3_7_5_6_2_21_2_4" />
+      <j l="6#3_3_7_6_6_2_21_2_4" />
+    </i>
+  </g>
+  <g t="R" o="002">
+    <i t="restrictions, to list of tables in a database">
+      <j l="8#3_3_7_8_6_2_17_2_4" />
+    </i>
+  </g>
+  <g t="S" o="002">
+    <i t="screens">
+      <i t="Alias Management">
+        <j l="4#3_3_7_4_6_2_5" />
+      </i>
+      <i t="Change Password">
+        <j l="7#3_3_7_7_6_2_5" />
+      </i>
+      <i t="Columns in (TableName)">
+        <j l="10#3_3_7_10_6_2_5" />
+      </i>
+      <i t="Edit Alias Information">
+        <j l="6#3_3_7_6_6_2_5" />
+      </i>
+      <i t="Generate from SQL">
+        <j l="12#3_3_7_12_6_2_5" />
+      </i>
+      <i t="Generate New Database Service">
+        <j l="11#3_3_7_11_6_2_5" />
+      </i>
+      <i t="New DB Alias">
+        <j l="5#3_3_7_5_6_2_5" />
+      </i>
+      <i t="Specify Connection Parameters">
+        <j l="8#3_3_7_8_6_2_5" />
+      </i>
+      <i t="Tables in (DataSourceName)">
+        <j l="9#3_3_7_9_6_2_5" />
+      </i>
+    </i>
+    <i t="search frame, help system">
+      <j l="1#3_3_3_3_4_7_6" />
+    </i>
+    <i t="SELECT database operation">
+      <j l="10#3_3_7_10_6_2_13_2_8_2_4" />
+    </i>
+    <i t="selecting tables and operations">
+      <j l="9#3_3_7_9_6_2_5" />
+    </i>
+    <i t="server’s classpath, Java class location">
+      <j l="5#3_3_7_5_6_2_25_1_3_1_2" />
+      <j l="6#3_3_7_6_6_2_25_1_3_1_2" />
+    </i>
+    <i t="services">
+      <i t="creating from SQL statement">
+        <j l="12#3_3_7_12_6_2_5" />
+      </i>
+      <i t="creating from tables">
+        <j l="9#3_3_7_9_6_2_5" />
+        <j l="10#3_3_7_10_6_2_5" />
+      </i>
+      <i t="creating new SQL statements or tables">
+        <j l="11#3_3_7_11_6_2_5" />
+      </i>
+      <i t="generating SQL from tables and columns">
+        <j l="10#3_3_7_10_6_2_9_2_4" />
+      </i>
+      <i t="generating with binding parameters">
+        <j l="13#3_3_7_13_6_2_5" />
+      </i>
+      <i t="identifying names and data types">
+        <j l="12#3_3_7_12_6_2_5" />
+      </i>
+      <i t="operations to perform">
+        <i t="DELETE">
+          <j l="10#3_3_7_10_6_2_13_2_8_6_4" />
+        </i>
+        <i t="INSERT">
+          <j l="10#3_3_7_10_6_2_13_2_8_4_4" />
+        </i>
+        <i t="SELECT">
+          <j l="10#3_3_7_10_6_2_13_2_8_2_4" />
+        </i>
+        <i t="UPDATE">
+          <j l="10#3_3_7_10_6_2_13_2_8_8_4" />
+        </i>
+      </i>
+      <i t="selecting database operations">
+        <j l="10#3_3_7_10_6_2_5" />
+      </i>
+      <i t="selecting table columns">
+        <j l="10#3_3_7_10_6_2_15_2_4" />
+      </i>
+      <i t="selecting type of operation to perform">
+        <j l="10#3_3_7_10_6_2_11_2_4" />
+      </i>
+      <i t="specifying table access">
+        <j l="9#3_3_7_9_6_2_9_2_4" />
+      </i>
+    </i>
+    <i t="show help navigation frame">
+      <j l="1#3_3_3_3_6_7_2_8_2_4" />
+      <j l="1#3_3_3_3_6_7_2_8_6_4" />
+    </i>
+    <i t="specifying">
+      <i t="database logon password">
+        <j l="5#3_3_7_5_6_2_21_2_4" />
+        <j l="6#3_3_7_6_6_2_21_2_4" />
+      </i>
+      <i t="expiration time for cached connections">
+        <j l="5#3_3_7_5_6_2_31_2_4" />
+      </i>
+      <i t="maximum number of connections to pool">
+        <j l="5#3_3_7_5_6_2_29_2_4" />
+      </i>
+      <i t="minimum number of connections to pool">
+        <j l="5#3_3_7_5_6_2_27_2_4" />
+      </i>
+    </i>
+    <i t="SQL statements">
+      <i t="generating a service">
+        <j l="12#3_3_7_12_6_2_5" />
+      </i>
+      <i t="generating from table">
+        <j l="10#3_3_7_10_6_2_9_2_4" />
+      </i>
+      <i t="including template tags">
+        <j l="12#3_3_7_12_6_2_15_2_4" />
+      </i>
+      <i t="including webMethods template tags">
+        <j l="12#3_3_7_12_6_2_17_2_4" />
+      </i>
+      <i t="static or dynamic">
+        <j l="12#3_3_7_12_6_2_15_2_4" />
+      </i>
+      <i t="testing">
+        <j l="9#3_3_7_9_6_2_13_2_4" />
+        <j l="10#3_3_7_10_6_2_19_2_4" />
+      </i>
+    </i>
+  </g>
+  <g t="T" o="002">
+    <i t="tables">
+      <i t="columns, selecting">
+        <j l="10#3_3_7_10_6_2_15_2_4" />
+      </i>
+      <i t="limiting a database search">
+        <j l="8#3_3_7_8_6_2_17_2_4" />
+      </i>
+      <i t="limiting access">
+        <j l="8#3_3_7_8_6_2_5" />
+      </i>
+      <i t="name and type">
+        <j l="9#3_3_7_9_6_2_9_2_4" />
+      </i>
+    </i>
+    <i t="template tags">
+      <i t="in SQL">
+        <j l="12#3_3_7_12_6_2_15_2_4" />
+      </i>
+      <i t="including webMethod s tags">
+        <j l="12#3_3_7_12_6_2_17_2_4" />
+      </i>
+    </i>
+    <i t="toolbar frame, help system">
+      <j l="1#3_3_3_3_6_5" />
+    </i>
+  </g>
+  <g t="U" o="002">
+    <i t="UPDATE database operation">
+      <j l="10#3_3_7_10_6_2_13_2_8_8_4" />
+    </i>
+    <i t="updating connection information for database alias">
+      <j l="6#3_3_7_6_6_2_5" />
+    </i>
+  </g>
+  <g t="W" o="002">
+    <i t="WmDB package">
+      <j l="2#3_3_5_3_4" />
+    </i>
+  </g>
+</WebWorksHelpIX>

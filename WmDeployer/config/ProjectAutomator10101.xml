@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DeployerSpec exitOnError="false" sourceType="Repository">
+	<DeployerServer>
+		<host>pwjkwms01.cloud.ge.com:14200</host>
+		<user>Administrator</user>
+		<pwd>{AES}Y5IgMqjfvkgbg7p5VUZztw==</pwd>
+	</DeployerServer>
+  <Environment>
+		<IS>
+			<isalias name="RepoISTarget2">
+				<!--<host>localhost</host>-->
+				<host>pwnlvwm97t02.cloud.ge.com</host>
+				<port>10101</port>
+				<user>Administrator</user>
+				<pwd>{AES}RGRrYYBY5lE7KEVGZ/R8Pw==</pwd>
+				<useSSL>false</useSSL>
+				<version>9.7</version>
+				<installDeployerResource>true</installDeployerResource>
+				<Test>false</Test>
+			</isalias>
+		<!--	<isalias name="RepoISTarget2ForLogicalServer">
+				<host>pwnlq0811v01.cloud.ge.com</host>
+				<port>20001</port>
+				<user>Administrator</user>
+				<pwd>manage</pwd>
+				<useSSL>false</useSSL>
+				<version>9.7</version>
+				<installDeployerResource>true</installDeployerResource>
+				<Test>false</Test>
+			</isalias> -->
+		</IS>
+	<!--	<ProcessModel>
+			<pmalias name="RepoProdBPMTarget">
+				<host>pwnlq0811v01.cloud.ge.com</host>
+				<port>20001</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</pmalias>	
+		</ProcessModel>
+		<EventServer>
+			<eventserveralias name="RepoProdBPMTarget">
+				<host>pwjkwms01.cloud.ge.com</host>
+				<port>8201</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</eventserveralias>	
+		</EventServer>
+		<RulesServer>
+			<rulesalias name="RepoProdBPMTarget">
+				<host>pwjkwms01.cloud.ge.com</host>
+				<port>8201</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</rulesalias>	
+		</RulesServer>	-->	
+		<Repository>
+			<repalias name="10101_Repo">
+				<type>FlatFile</type>
+				<urlOrDirectory>/tmp/Jenkins_WS_10101/build_output_dir/</urlOrDirectory>
+				<Test>true</Test>
+			</repalias>
+		</Repository>	
+	</Environment>
+	<!--<DeploymentSet autoResolve="full|partial|ignore" description="description "
+name="deployment_set " srcAlias="repository "> <Composite name="name "
+srcAlias="repository_alias " type="type "/> <Component
+componentType="component_type " compositeName="name " name="name "
+srcAlias="repository_alias " type="runtime_type "/>
+ -->
+
+	<Projects projectPrefix="JENKIN_">
+		<Project description="" ignoreMissingDependencies="true" name="10101IS" overwrite="true" type="Repository">
+			  <DeploymentSet autoResolve="full" description="is deployment set" name="10101myDeploymentSet" srcAlias="10101_Repo">
+			<Composite name="GE_Sample_Package" srcAlias="10101_Repo" type="IS"/>
+	<Component componentType="package" compositeName="GE_Sample_Package" displayName="GE_Sample_Package" name="GE_Sample_Package" srcAlias="10101_Repo" type="IS"/>		
+                         </DeploymentSet>
+
+			<DeploymentMap description="" name="10101myDeploymentMap"/>			
+			<MapSetMapping mapName="10101myDeploymentMap" setName="10101myDeploymentSet">				
+				<!--<alias type="ProcessModel">RepoProdBPMTarget</alias>-->
+				<alias type="IS">RepoISTarget2</alias>
+				<!--<alias logicalServer="Default" type="IS">RepoISTarget2ForLogicalServer</alias> -->
+			</MapSetMapping>	
+			<DeploymentCandidate description="" mapName="10101myDeploymentMap" name="10101CandidateMap"/>
+		</Project>		
+	</Projects>
+</DeployerSpec>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report>
+    <Messages type="INFO">
+        <message deploymentProject="">Deployer Server running on host:port pwjkwms01.cloud.ge.com:14200</message>
+        <message deploymentProject="">Deployer Server authenticated using user Administrator</message>
+        <message deploymentProject="">Deleted remote server RepoISTarget2</message>
+        <message deploymentProject="">Successfully created Integration Server alias RepoISTarget2</message>
+        <message deploymentProject="">Installed WmDeployerResource on the IS Server Alias RepoISTarget2</message>
+        <message deploymentProject="">Successfully deleted Repository alias 10101_Repo</message>
+        <message deploymentProject="">Successfully created Repository 10101_Repo</message>
+        <message deploymentProject="">Successfully updated Repository 10101_Repo</message>
+        <message deploymentProject="">Listed project on Deployer succesfully</message>
+        <message deploymentProject="">Listed project on Deployer succesfully</message>
+        <message deploymentProject="">Deleted project JENKIN_10101IS succesfully</message>
+        <message deploymentProject="">Created project JENKIN_10101IS succesfully</message>
+        <message deploymentProject="">Created Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS</message>
+        <message deploymentProject="">Updated Source Server Aliases 10101_Repo, on Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS</message>
+        <message deploymentProject="">Successfully created map 10101myDeploymentMap in project JENKIN_10101IS</message>
+        <message deploymentProject="">Added server aliases to the deployment map 10101myDeploymentMap in the project JENKIN_10101IS</message>
+        <message deploymentProject="">Successfully created deployment candidate 10101CandidateMap with map 10101myDeploymentMap in project JENKIN_10101IS</message>
+    </Messages>
+    <Messages type="ERROR">
+        <message category="projectError" deploymentCandidate=""
+            deploymentMap="" deploymentProject="JENKIN_10101IS"
+            deploymentSet="10101myDeploymentSet" errorCode="-102">Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source</message>
+        <message category="projectError" deploymentCandidate=""
+            deploymentMap="" deploymentProject="JENKIN_10101IS"
+            deploymentSet="10101myDeploymentSet" errorCode="-102">Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source</message>
+        <message category="projectError" deploymentCandidate=""
+            deploymentMap="" deploymentProject="JENKIN_10101IS"
+            deploymentSet="10101myDeploymentSet" errorCode="-102">Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source</message>
+        <message category="projectError" deploymentCandidate=""
+            deploymentMap="" deploymentProject="JENKIN_10101IS"
+            deploymentSet="10101myDeploymentSet" errorCode="-102">Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source</message>
+    </Messages>
+</Report>

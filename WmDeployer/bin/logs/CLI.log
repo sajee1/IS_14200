@@ -1,0 +1,951 @@
+[DEBUG] [17 Apr 2017 17:02:18,052] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:02:18,053] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:02:18,053] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:02:18,054] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:02:18,056] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:02:18,057] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+
+[ INFO] [17 Apr 2017 17:03:29,220] (MainClass.java:initializeLogger:238)
+Logging initialized.
+
+[ INFO] [17 Apr 2017 17:03:29,223] (MainClass.java:main:169)
+No of command line arguments = 5
+
+[ INFO] [17 Apr 2017 17:03:29,223] (MainClass.java:main:171)
+Argument 0 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/instances/default/packages/WmDeployer/config/ProjectAutomator10101.xml
+
+[ INFO] [17 Apr 2017 17:03:29,223] (MainClass.java:main:171)
+Argument 1 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRuntime.xsd
+
+[ INFO] [17 Apr 2017 17:03:29,224] (MainClass.java:main:171)
+Argument 2 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRepository.xsd
+
+[ INFO] [17 Apr 2017 17:03:29,224] (MainClass.java:main:171)
+Argument 3 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/bin/log4j.properties
+
+[ INFO] [17 Apr 2017 17:03:29,224] (MainClass.java:main:171)
+Argument 4 = 0
+
+[ INFO] [17 Apr 2017 17:03:29,228] (MainClass.java:main:194)
+Operating System on which ProjectAutomator is running is a UNIX or a UNIX Variant
+
+[ INFO] [17 Apr 2017 17:03:29,339] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ERROR] [17 Apr 2017 17:03:29,596] (MainClass.java:validateXMLWithSchema:156)
+Error validating XML with schema. Exception thrown cvc-complex-type.3.2.2: Attribute 'packageRegExp' is not allowed to appear in element 'DeploymentSet'.
+
+[ INFO] [17 Apr 2017 17:03:30,938] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [17 Apr 2017 17:03:30,959] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [17 Apr 2017 17:03:30,966] (ParseDeployerParams.java:parse:1942)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[DEBUG] [17 Apr 2017 17:03:30,966] (ParseDeployerParams.java:validateCommandLineParametersForAction:2552)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:03:30,968] (ParseDeployerParams.java:validateCommandLineParametersForAction:2834)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [17 Apr 2017 17:03:30,969] (ParseDeployerParams.java:validateCommandLineParametersForAction:2836)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:03:30,969] (ParseDeployerParams.java:validateCommandLineParametersForAction:2839)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:03:30,974] (ParseDeployerParams.java:validateCommandLineParametersForAction:2842)
+[Deployer] Operation invoked by User Administrator on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:03:30,974] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = port Value = 14200
+
+[DEBUG] [17 Apr 2017 17:03:30,974] (ParseDeployerParams.java:printParamMap:5116)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [17 Apr 2017 17:03:30,975] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = host Value = pwjkwms01.cloud.ge.com
+
+[DEBUG] [17 Apr 2017 17:03:30,975] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = action Value = deploy
+
+[DEBUG] [17 Apr 2017 17:03:30,975] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [17 Apr 2017 17:03:30,976] (ParseDeployerParams.java:validateCommandLineParametersForAction:3994)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[ INFO] [17 Apr 2017 17:03:30,976] (ParseDeployerParams.java:validateCommandLineParametersForAction:4067)
+[DEP.0100.5.62] -force flag is true
+
+[DEBUG] [17 Apr 2017 17:03:30,976] (ParseDeployerParams.java:validateCommandLineParametersForAction:5085)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:03:30,983] (DeployerServiceUtils.java:deployAction:657)
+[Deployer] Entering deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:03:30,983] (DeployerServiceUtils.java:deployAction:660)
+[Deployer] Invoking Service wm.deployer.UIDeployer.deployToTargets on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:03:30,984] (DeployerServiceUtils.java:deployAction:666)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [17 Apr 2017 17:03:30,984] (DeployerServiceUtils.java:deployAction:668)
+[Deployer] Parameters to the service 
+
+[DEBUG] [17 Apr 2017 17:03:30,991] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	project = JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:03:30,991] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	deploymentName = 10101CandidateMap
+
+[DEBUG] [17 Apr 2017 17:03:30,991] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	preDeployString = false
+
+[DEBUG] [17 Apr 2017 17:03:30,992] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	force = true
+
+[DEBUG] [17 Apr 2017 17:03:30,992] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	reportFilePath = /tmp/Jenkins_WS_10101/build_output_dir/
+
+[DEBUG] [17 Apr 2017 17:03:30,993] (DeployerServiceUtils.java:executeService:1483)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:03:31,807] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:03:31,912] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:03:31,912] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:03:31,920] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:03:31,967] (DeployerServiceUtils.java:executeService:1576)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:03:31,967] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:03:31,967] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:03:31,971] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:03:31,971] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:03:31,972] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:03:31,972] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+
+[ INFO] [17 Apr 2017 17:05:37,309] (MainClass.java:initializeLogger:238)
+Logging initialized.
+
+[ INFO] [17 Apr 2017 17:05:37,311] (MainClass.java:main:169)
+No of command line arguments = 5
+
+[ INFO] [17 Apr 2017 17:05:37,312] (MainClass.java:main:171)
+Argument 0 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/instances/default/packages/WmDeployer/config/ProjectAutomator10101.xml
+
+[ INFO] [17 Apr 2017 17:05:37,312] (MainClass.java:main:171)
+Argument 1 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRuntime.xsd
+
+[ INFO] [17 Apr 2017 17:05:37,312] (MainClass.java:main:171)
+Argument 2 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRepository.xsd
+
+[ INFO] [17 Apr 2017 17:05:37,312] (MainClass.java:main:171)
+Argument 3 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/bin/log4j.properties
+
+[ INFO] [17 Apr 2017 17:05:37,313] (MainClass.java:main:171)
+Argument 4 = 0
+
+[ INFO] [17 Apr 2017 17:05:37,316] (MainClass.java:main:194)
+Operating System on which ProjectAutomator is running is a UNIX or a UNIX Variant
+
+[ INFO] [17 Apr 2017 17:05:37,426] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ERROR] [17 Apr 2017 17:05:37,692] (MainClass.java:validateXMLWithSchema:156)
+Error validating XML with schema. Exception thrown cvc-complex-type.3.2.2: Attribute 'type' is not allowed to appear in element 'DeploymentSet'.
+
+[ INFO] [17 Apr 2017 17:05:38,942] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [17 Apr 2017 17:05:38,964] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [17 Apr 2017 17:05:38,970] (ParseDeployerParams.java:parse:1942)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[DEBUG] [17 Apr 2017 17:05:38,971] (ParseDeployerParams.java:validateCommandLineParametersForAction:2552)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:05:38,974] (ParseDeployerParams.java:validateCommandLineParametersForAction:2834)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [17 Apr 2017 17:05:38,974] (ParseDeployerParams.java:validateCommandLineParametersForAction:2836)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:05:38,974] (ParseDeployerParams.java:validateCommandLineParametersForAction:2839)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:05:38,979] (ParseDeployerParams.java:validateCommandLineParametersForAction:2842)
+[Deployer] Operation invoked by User Administrator on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:05:38,979] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = port Value = 14200
+
+[DEBUG] [17 Apr 2017 17:05:38,979] (ParseDeployerParams.java:printParamMap:5116)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [17 Apr 2017 17:05:38,980] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = host Value = pwjkwms01.cloud.ge.com
+
+[DEBUG] [17 Apr 2017 17:05:38,980] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = action Value = deploy
+
+[DEBUG] [17 Apr 2017 17:05:38,980] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [17 Apr 2017 17:05:38,981] (ParseDeployerParams.java:validateCommandLineParametersForAction:3994)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[ INFO] [17 Apr 2017 17:05:38,981] (ParseDeployerParams.java:validateCommandLineParametersForAction:4067)
+[DEP.0100.5.62] -force flag is true
+
+[DEBUG] [17 Apr 2017 17:05:38,981] (ParseDeployerParams.java:validateCommandLineParametersForAction:5085)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:05:38,988] (DeployerServiceUtils.java:deployAction:657)
+[Deployer] Entering deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:05:38,989] (DeployerServiceUtils.java:deployAction:660)
+[Deployer] Invoking Service wm.deployer.UIDeployer.deployToTargets on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:05:38,989] (DeployerServiceUtils.java:deployAction:666)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [17 Apr 2017 17:05:38,989] (DeployerServiceUtils.java:deployAction:668)
+[Deployer] Parameters to the service 
+
+[DEBUG] [17 Apr 2017 17:05:38,996] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	project = JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:05:38,996] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	deploymentName = 10101CandidateMap
+
+[DEBUG] [17 Apr 2017 17:05:38,997] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	preDeployString = false
+
+[DEBUG] [17 Apr 2017 17:05:38,997] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	force = true
+
+[DEBUG] [17 Apr 2017 17:05:38,997] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	reportFilePath = /tmp/Jenkins_WS_10101/build_output_dir/
+
+[DEBUG] [17 Apr 2017 17:05:38,997] (DeployerServiceUtils.java:executeService:1483)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:05:39,807] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:05:39,904] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:05:39,904] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:05:39,912] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:05:39,931] (DeployerServiceUtils.java:executeService:1576)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:05:39,932] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:05:39,932] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:05:39,933] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:05:39,933] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:05:39,935] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:05:39,936] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+
+[ INFO] [17 Apr 2017 17:11:42,306] (MainClass.java:initializeLogger:238)
+Logging initialized.
+
+[ INFO] [17 Apr 2017 17:11:42,309] (MainClass.java:main:169)
+No of command line arguments = 5
+
+[ INFO] [17 Apr 2017 17:11:42,309] (MainClass.java:main:171)
+Argument 0 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/instances/default/packages/WmDeployer/config/ProjectAutomator10101.xml
+
+[ INFO] [17 Apr 2017 17:11:42,309] (MainClass.java:main:171)
+Argument 1 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRuntime.xsd
+
+[ INFO] [17 Apr 2017 17:11:42,309] (MainClass.java:main:171)
+Argument 2 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRepository.xsd
+
+[ INFO] [17 Apr 2017 17:11:42,310] (MainClass.java:main:171)
+Argument 3 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/bin/log4j.properties
+
+[ INFO] [17 Apr 2017 17:11:42,310] (MainClass.java:main:171)
+Argument 4 = 0
+
+[ INFO] [17 Apr 2017 17:11:42,313] (MainClass.java:main:194)
+Operating System on which ProjectAutomator is running is a UNIX or a UNIX Variant
+
+[ INFO] [17 Apr 2017 17:11:42,432] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ERROR] [17 Apr 2017 17:11:42,686] (MainClass.java:validateXMLWithSchema:156)
+Error validating XML with schema. Exception thrown cvc-complex-type.2.4.a: Invalid content was found starting with element 'Package'. One of '{Composite, Component}' is expected.
+
+[ INFO] [17 Apr 2017 17:11:44,032] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [17 Apr 2017 17:11:44,053] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [17 Apr 2017 17:11:44,061] (ParseDeployerParams.java:parse:1942)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[DEBUG] [17 Apr 2017 17:11:44,061] (ParseDeployerParams.java:validateCommandLineParametersForAction:2552)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:11:44,063] (ParseDeployerParams.java:validateCommandLineParametersForAction:2834)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [17 Apr 2017 17:11:44,063] (ParseDeployerParams.java:validateCommandLineParametersForAction:2836)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:11:44,064] (ParseDeployerParams.java:validateCommandLineParametersForAction:2839)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:11:44,069] (ParseDeployerParams.java:validateCommandLineParametersForAction:2842)
+[Deployer] Operation invoked by User Administrator on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:11:44,069] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = port Value = 14200
+
+[DEBUG] [17 Apr 2017 17:11:44,069] (ParseDeployerParams.java:printParamMap:5116)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [17 Apr 2017 17:11:44,069] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = host Value = pwjkwms01.cloud.ge.com
+
+[DEBUG] [17 Apr 2017 17:11:44,070] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = action Value = deploy
+
+[DEBUG] [17 Apr 2017 17:11:44,070] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [17 Apr 2017 17:11:44,071] (ParseDeployerParams.java:validateCommandLineParametersForAction:3994)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[ INFO] [17 Apr 2017 17:11:44,071] (ParseDeployerParams.java:validateCommandLineParametersForAction:4067)
+[DEP.0100.5.62] -force flag is true
+
+[DEBUG] [17 Apr 2017 17:11:44,071] (ParseDeployerParams.java:validateCommandLineParametersForAction:5085)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:11:44,078] (DeployerServiceUtils.java:deployAction:657)
+[Deployer] Entering deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:11:44,079] (DeployerServiceUtils.java:deployAction:660)
+[Deployer] Invoking Service wm.deployer.UIDeployer.deployToTargets on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:11:44,079] (DeployerServiceUtils.java:deployAction:666)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [17 Apr 2017 17:11:44,079] (DeployerServiceUtils.java:deployAction:668)
+[Deployer] Parameters to the service 
+
+[DEBUG] [17 Apr 2017 17:11:44,087] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	project = JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:11:44,087] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	deploymentName = 10101CandidateMap
+
+[DEBUG] [17 Apr 2017 17:11:44,088] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	preDeployString = false
+
+[DEBUG] [17 Apr 2017 17:11:44,088] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	force = true
+
+[DEBUG] [17 Apr 2017 17:11:44,088] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	reportFilePath = /tmp/Jenkins_WS_10101/build_output_dir/
+
+[DEBUG] [17 Apr 2017 17:11:44,088] (DeployerServiceUtils.java:executeService:1483)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:11:44,955] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:11:45,066] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:11:45,067] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:11:45,075] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:11:45,103] (DeployerServiceUtils.java:executeService:1576)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:11:45,103] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:11:45,104] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:11:45,104] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:11:45,105] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:11:45,107] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:11:45,107] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+
+[ INFO] [17 Apr 2017 17:40:10,308] (MainClass.java:initializeLogger:238)
+Logging initialized.
+
+[ INFO] [17 Apr 2017 17:40:10,310] (MainClass.java:main:169)
+No of command line arguments = 5
+
+[ INFO] [17 Apr 2017 17:40:10,310] (MainClass.java:main:171)
+Argument 0 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/instances/default/packages/WmDeployer/config/ProjectAutomator10101.xml
+
+[ INFO] [17 Apr 2017 17:40:10,311] (MainClass.java:main:171)
+Argument 1 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRuntime.xsd
+
+[ INFO] [17 Apr 2017 17:40:10,311] (MainClass.java:main:171)
+Argument 2 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRepository.xsd
+
+[ INFO] [17 Apr 2017 17:40:10,311] (MainClass.java:main:171)
+Argument 3 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/bin/log4j.properties
+
+[ INFO] [17 Apr 2017 17:40:10,311] (MainClass.java:main:171)
+Argument 4 = 0
+
+[ INFO] [17 Apr 2017 17:40:10,315] (MainClass.java:main:194)
+Operating System on which ProjectAutomator is running is a UNIX or a UNIX Variant
+
+[ INFO] [17 Apr 2017 17:40:10,426] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [17 Apr 2017 17:40:13,644] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:40:13,822] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:40:13,870] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:428)
+Using WmDeployer package on the Server pwjkwms01.cloud.ge.com:14200 configured with the user Administrator
+
+[DEBUG] [17 Apr 2017 17:40:13,873] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias RepoISTarget2 of pluginType IS&TN exists.
+
+[DEBUG] [17 Apr 2017 17:40:14,053] (DeployerUtil.java:createISServerAliases:175)
+Deleting IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101
+
+[ INFO] [17 Apr 2017 17:40:14,098] (DeployerUtil.java:createISServerAliases:178)
+Deleted IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101
+
+[DEBUG] [17 Apr 2017 17:40:14,099] (DeployerUtil.java:createISServerAliases:181)
+Creating IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101 with the user Administrator
+
+[ INFO] [17 Apr 2017 17:40:14,177] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:40:14,196] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:40:14,249] (DeployerUtil.java:createISServerAliases:206)
+Created IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101 with the user Administrator
+
+[DEBUG] [17 Apr 2017 17:40:14,250] (ISServerAlias.java:installDeployerResource:286)
+Installing WmDeployerResource on the IS Server Alias RepoISTarget2
+
+[ INFO] [17 Apr 2017 17:40:16,872] (ISServerAlias.java:installDeployerResource:334)
+Installed WmDeployerResource on the IS Server Alias RepoISTarget2
+
+[DEBUG] [17 Apr 2017 17:40:16,876] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias 10101_Repo of pluginType Repository exists.
+
+[DEBUG] [17 Apr 2017 17:40:16,927] (DeployerUtil.java:createRepositoryServerAliases:1266)
+Deleting Repository Server Alias 10101_Repo
+
+[ INFO] [17 Apr 2017 17:40:16,970] (DeployerUtil.java:createRepositoryServerAliases:1269)
+Deleted Repository Server Alias 10101_Repo
+
+[DEBUG] [17 Apr 2017 17:40:16,971] (DeployerUtil.java:createRepositoryServerAliases:1272)
+Creating Repository Server Alias : aliasName = 10101_Repo
+
+[ INFO] [17 Apr 2017 17:40:17,062] (DeployerUtil.java:createRepositoryServerAliases:1275)
+Created Repository Server Alias Alias : aliasName = 10101_Repo
+
+[ERROR] [17 Apr 2017 17:40:17,173] (RepoAssetUtil.java:getRepositoryComposite:220)
+No Repository Objects for the type IS found on the Source Server Alias 10101_Repo
+
+[ERROR] [17 Apr 2017 17:40:17,177] (RepoAssetUtil.java:getRepositoryComposite:299)
+Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source
+
+[ERROR] [17 Apr 2017 17:40:17,219] (RepoAssetUtil.java:getRepositoryComponent:82)
+No Repository Objects for the type IS found on the Source Server Alias 10101_Repo
+
+[ERROR] [17 Apr 2017 17:40:17,223] (RepoAssetUtil.java:getRepositoryComponent:165)
+Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source
+
+[DEBUG] [17 Apr 2017 17:40:17,224] (ProjectPlanExecutorXMLParser.java:getProjectDetails:529)
+Setting variable exitWithErrorCondition to true
+
+[DEBUG] [17 Apr 2017 17:40:17,229] (ProjectPlanExecutorXMLParser.java:getProjectDetails:588)
+Deleting Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,437] (ProjectPlanExecutorXMLParser.java:getProjectDetails:591)
+Deleted Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,438] (ProjectPlanExecutorXMLParser.java:getProjectDetails:593)
+Creating Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,619] (ProjectPlanExecutorXMLParser.java:getProjectDetails:595)
+Created Project JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:40:17,619] (DeploymentSet.java:create:181)
+Creating Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,699] (DeploymentSet.java:create:210)
+Created Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:40:17,700] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,771] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,850] (DeploymentMap.java:create:78)
+Creating Deployment Map 10101myDeploymentMap in Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,902] (DeploymentMap.java:create:98)
+Successfully created Deployment Map 10101myDeploymentMap in Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:17,970] (DeploymentCandidate.java:create:87)
+Creating Deployment Candidate 10101CandidateMap with Deployment Map 10101myDeploymentMap for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:40:18,024] (DeploymentCandidate.java:create:115)
+Successfully created Deployment Candidate 10101CandidateMap with Deployment Map 10101myDeploymentMap for project JENKIN_10101IS
+
+[ERROR] [17 Apr 2017 17:40:18,025] (ProjectPlanExecutorXMLParser.java:parseXmlFile:93)
+Deployment Test Suite exited with Errors. Please check the logs for further details
+
+[ INFO] [17 Apr 2017 17:40:18,083] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [17 Apr 2017 17:40:18,083] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 17
+
+[ INFO] [17 Apr 2017 17:40:18,083] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 4
+
+[ INFO] [17 Apr 2017 17:40:18,098] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [17 Apr 2017 17:40:19,727] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [17 Apr 2017 17:40:19,749] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [17 Apr 2017 17:40:19,756] (ParseDeployerParams.java:parse:1942)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[DEBUG] [17 Apr 2017 17:40:19,756] (ParseDeployerParams.java:validateCommandLineParametersForAction:2552)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:40:19,758] (ParseDeployerParams.java:validateCommandLineParametersForAction:2834)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [17 Apr 2017 17:40:19,758] (ParseDeployerParams.java:validateCommandLineParametersForAction:2836)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:40:19,758] (ParseDeployerParams.java:validateCommandLineParametersForAction:2839)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:40:19,763] (ParseDeployerParams.java:validateCommandLineParametersForAction:2842)
+[Deployer] Operation invoked by User Administrator on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:40:19,764] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = port Value = 14200
+
+[DEBUG] [17 Apr 2017 17:40:19,764] (ParseDeployerParams.java:printParamMap:5116)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [17 Apr 2017 17:40:19,764] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = host Value = pwjkwms01.cloud.ge.com
+
+[DEBUG] [17 Apr 2017 17:40:19,764] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = action Value = deploy
+
+[DEBUG] [17 Apr 2017 17:40:19,765] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [17 Apr 2017 17:40:19,765] (ParseDeployerParams.java:validateCommandLineParametersForAction:3994)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[ INFO] [17 Apr 2017 17:40:19,766] (ParseDeployerParams.java:validateCommandLineParametersForAction:4067)
+[DEP.0100.5.62] -force flag is true
+
+[DEBUG] [17 Apr 2017 17:40:19,766] (ParseDeployerParams.java:validateCommandLineParametersForAction:5085)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:40:19,779] (DeployerServiceUtils.java:deployAction:657)
+[Deployer] Entering deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:40:19,780] (DeployerServiceUtils.java:deployAction:660)
+[Deployer] Invoking Service wm.deployer.UIDeployer.deployToTargets on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:40:19,780] (DeployerServiceUtils.java:deployAction:666)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [17 Apr 2017 17:40:19,780] (DeployerServiceUtils.java:deployAction:668)
+[Deployer] Parameters to the service 
+
+[DEBUG] [17 Apr 2017 17:40:19,795] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	project = JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:40:19,795] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	deploymentName = 10101CandidateMap
+
+[DEBUG] [17 Apr 2017 17:40:19,795] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	preDeployString = false
+
+[DEBUG] [17 Apr 2017 17:40:19,796] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	force = true
+
+[DEBUG] [17 Apr 2017 17:40:19,796] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	reportFilePath = /tmp/Jenkins_WS_10101/build_output_dir/
+
+[DEBUG] [17 Apr 2017 17:40:19,796] (DeployerServiceUtils.java:executeService:1483)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:40:20,597] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:40:20,697] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:40:20,697] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:40:20,707] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:40:20,728] (DeployerServiceUtils.java:executeService:1576)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:40:20,729] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:40:20,729] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:40:20,731] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:40:20,731] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:40:20,732] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:40:20,733] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+
+[ INFO] [17 Apr 2017 17:42:35,308] (MainClass.java:initializeLogger:238)
+Logging initialized.
+
+[ INFO] [17 Apr 2017 17:42:35,311] (MainClass.java:main:169)
+No of command line arguments = 5
+
+[ INFO] [17 Apr 2017 17:42:35,311] (MainClass.java:main:171)
+Argument 0 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/instances/default/packages/WmDeployer/config/ProjectAutomator10101.xml
+
+[ INFO] [17 Apr 2017 17:42:35,311] (MainClass.java:main:171)
+Argument 1 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRuntime.xsd
+
+[ INFO] [17 Apr 2017 17:42:35,311] (MainClass.java:main:171)
+Argument 2 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/config/ProjectAutomatorForRepository.xsd
+
+[ INFO] [17 Apr 2017 17:42:35,311] (MainClass.java:main:171)
+Argument 3 = /wm/pwwmqa/apps/IS/IS14100/IntegrationServer/packages/WmDeployer/bin/log4j.properties
+
+[ INFO] [17 Apr 2017 17:42:35,312] (MainClass.java:main:171)
+Argument 4 = 0
+
+[ INFO] [17 Apr 2017 17:42:35,315] (MainClass.java:main:194)
+Operating System on which ProjectAutomator is running is a UNIX or a UNIX Variant
+
+[ INFO] [17 Apr 2017 17:42:35,426] (MainClass.java:<init>:50)
+Started Operation of Deployer Test Suite
+
+[ INFO] [17 Apr 2017 17:42:38,781] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:42:38,924] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:42:38,971] (ProjectPlanExecutorXMLParser.java:getDeployerServerDetails:428)
+Using WmDeployer package on the Server pwjkwms01.cloud.ge.com:14200 configured with the user Administrator
+
+[DEBUG] [17 Apr 2017 17:42:38,973] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias RepoISTarget2 of pluginType IS&TN exists.
+
+[DEBUG] [17 Apr 2017 17:42:39,161] (DeployerUtil.java:createISServerAliases:175)
+Deleting IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101
+
+[ INFO] [17 Apr 2017 17:42:39,199] (DeployerUtil.java:createISServerAliases:178)
+Deleted IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101
+
+[DEBUG] [17 Apr 2017 17:42:39,199] (DeployerUtil.java:createISServerAliases:181)
+Creating IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101 with the user Administrator
+
+[ INFO] [17 Apr 2017 17:42:39,224] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:42:39,241] (KeyObfuscator.java:decryptAndUnobfuscate:161)
+Successfully retrieved the key from the given obfuscated file.
+
+[ INFO] [17 Apr 2017 17:42:39,301] (DeployerUtil.java:createISServerAliases:206)
+Created IS Alias : aliasName = RepoISTarget2@pwnlvwm97t02.cloud.ge.com:10101 with the user Administrator
+
+[DEBUG] [17 Apr 2017 17:42:39,301] (ISServerAlias.java:installDeployerResource:286)
+Installing WmDeployerResource on the IS Server Alias RepoISTarget2
+
+[ INFO] [17 Apr 2017 17:42:40,159] (ISServerAlias.java:installDeployerResource:334)
+Installed WmDeployerResource on the IS Server Alias RepoISTarget2
+
+[DEBUG] [17 Apr 2017 17:42:40,161] (ServerAlias.java:doesServerAliasExist:92)
+Checking if the  Server Alias 10101_Repo of pluginType Repository exists.
+
+[DEBUG] [17 Apr 2017 17:42:40,200] (DeployerUtil.java:createRepositoryServerAliases:1266)
+Deleting Repository Server Alias 10101_Repo
+
+[ INFO] [17 Apr 2017 17:42:40,236] (DeployerUtil.java:createRepositoryServerAliases:1269)
+Deleted Repository Server Alias 10101_Repo
+
+[DEBUG] [17 Apr 2017 17:42:40,236] (DeployerUtil.java:createRepositoryServerAliases:1272)
+Creating Repository Server Alias : aliasName = 10101_Repo
+
+[ INFO] [17 Apr 2017 17:42:40,313] (DeployerUtil.java:createRepositoryServerAliases:1275)
+Created Repository Server Alias Alias : aliasName = 10101_Repo
+
+[ERROR] [17 Apr 2017 17:42:40,416] (RepoAssetUtil.java:getRepositoryComposite:220)
+No Repository Objects for the type IS found on the Source Server Alias 10101_Repo
+
+[ERROR] [17 Apr 2017 17:42:40,417] (RepoAssetUtil.java:getRepositoryComposite:299)
+Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source
+
+[ERROR] [17 Apr 2017 17:42:40,557] (RepoAssetUtil.java:getRepositoryComponent:82)
+No Repository Objects for the type IS found on the Source Server Alias 10101_Repo
+
+[ERROR] [17 Apr 2017 17:42:40,558] (RepoAssetUtil.java:getRepositoryComponent:165)
+Error adding asset GE_Sample_Package from 10101_Repo to the Deployment Set 10101myDeploymentSet. The asset is not present on the source
+
+[DEBUG] [17 Apr 2017 17:42:40,558] (ProjectPlanExecutorXMLParser.java:getProjectDetails:529)
+Setting variable exitWithErrorCondition to true
+
+[DEBUG] [17 Apr 2017 17:42:40,563] (ProjectPlanExecutorXMLParser.java:getProjectDetails:588)
+Deleting Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:40,671] (ProjectPlanExecutorXMLParser.java:getProjectDetails:591)
+Deleted Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:40,675] (ProjectPlanExecutorXMLParser.java:getProjectDetails:593)
+Creating Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:40,841] (ProjectPlanExecutorXMLParser.java:getProjectDetails:595)
+Created Project JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:42:40,842] (DeploymentSet.java:create:181)
+Creating Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:40,924] (DeploymentSet.java:create:210)
+Created Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:42:40,925] (DeploymentSet.java:updateSourceServerAliasToSets:380)
+Updating Source Server Aliases on Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:40,999] (DeploymentSet.java:updateSourceServerAliasToSets:425)
+Updated Source Server Aliases on Deployment Set 10101myDeploymentSet of type Repository for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:41,069] (DeploymentMap.java:create:78)
+Creating Deployment Map 10101myDeploymentMap in Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:41,121] (DeploymentMap.java:create:98)
+Successfully created Deployment Map 10101myDeploymentMap in Project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:41,183] (DeploymentCandidate.java:create:87)
+Creating Deployment Candidate 10101CandidateMap with Deployment Map 10101myDeploymentMap for project JENKIN_10101IS
+
+[ INFO] [17 Apr 2017 17:42:41,238] (DeploymentCandidate.java:create:115)
+Successfully created Deployment Candidate 10101CandidateMap with Deployment Map 10101myDeploymentMap for project JENKIN_10101IS
+
+[ERROR] [17 Apr 2017 17:42:41,239] (ProjectPlanExecutorXMLParser.java:parseXmlFile:93)
+Deployment Test Suite exited with Errors. Please check the logs for further details
+
+[ INFO] [17 Apr 2017 17:42:41,291] (XMLReport.java:runExample:41)
+Started Generating Report ... 
+
+[ INFO] [17 Apr 2017 17:42:41,292] (XMLReport.java:createDOMTree:88)
+Info Messages Size = 17
+
+[ INFO] [17 Apr 2017 17:42:41,292] (XMLReport.java:createDOMTree:89)
+Error Messages Size = 4
+
+[ INFO] [17 Apr 2017 17:42:41,307] (XMLReport.java:runExample:44)
+Generated Automation Test Suite Report file successfully.
+
+[ INFO] [17 Apr 2017 17:42:42,929] (MainClass.java:initializeLogger:60)
+Logging initialized.
+
+[DEBUG] [17 Apr 2017 17:42:42,951] (ParseDeployerParams.java:parse:65)
+[Deployer] Entering parse(String[] args) Method
+
+[ INFO] [17 Apr 2017 17:42:42,958] (ParseDeployerParams.java:parse:1942)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[DEBUG] [17 Apr 2017 17:42:42,958] (ParseDeployerParams.java:validateCommandLineParametersForAction:2552)
+[Deployer] Entering validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:42:42,960] (ParseDeployerParams.java:validateCommandLineParametersForAction:2834)
+[Deployer] [Param Authentication] 
+
+[DEBUG] [17 Apr 2017 17:42:42,960] (ParseDeployerParams.java:validateCommandLineParametersForAction:2836)
+[Deployer] [Config File Parameters]isUserSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:42:42,961] (ParseDeployerParams.java:validateCommandLineParametersForAction:2839)
+[Deployer] [Config File Parameters]isPasswordSpecifiedinConfigFile = false
+
+[DEBUG] [17 Apr 2017 17:42:42,966] (ParseDeployerParams.java:validateCommandLineParametersForAction:2842)
+[Deployer] Operation invoked by User Administrator on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:42:42,966] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = port Value = 14200
+
+[DEBUG] [17 Apr 2017 17:42:42,966] (ParseDeployerParams.java:printParamMap:5116)
+[Deployer][ParamMap] Key = pwd.Value present but not shown.
+
+[DEBUG] [17 Apr 2017 17:42:42,967] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = host Value = pwjkwms01.cloud.ge.com
+
+[DEBUG] [17 Apr 2017 17:42:42,967] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = action Value = deploy
+
+[DEBUG] [17 Apr 2017 17:42:42,967] (ParseDeployerParams.java:printParamMap:5119)
+[Deployer][ParamMap] Key = user Value = Administrator
+
+[ INFO] [17 Apr 2017 17:42:42,968] (ParseDeployerParams.java:validateCommandLineParametersForAction:3994)
+[[DEP.0100.5.56] Operation] [DEP.0100.5.23] Deploy Deployment Candidate
+
+[ INFO] [17 Apr 2017 17:42:42,968] (ParseDeployerParams.java:validateCommandLineParametersForAction:4067)
+[DEP.0100.5.62] -force flag is true
+
+[DEBUG] [17 Apr 2017 17:42:42,968] (ParseDeployerParams.java:validateCommandLineParametersForAction:5085)
+[Deployer] Exiting validateCommandLineParametersForAction(Args arg,	CommandLineParser parser)
+
+[DEBUG] [17 Apr 2017 17:42:42,975] (DeployerServiceUtils.java:deployAction:657)
+[Deployer] Entering deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:42:42,975] (DeployerServiceUtils.java:deployAction:660)
+[Deployer] Invoking Service wm.deployer.UIDeployer.deployToTargets on Deployer pwjkwms01.cloud.ge.com:14200
+
+[DEBUG] [17 Apr 2017 17:42:42,976] (DeployerServiceUtils.java:deployAction:666)
+[Deployer] Service invoked by User Administrator
+
+[DEBUG] [17 Apr 2017 17:42:42,976] (DeployerServiceUtils.java:deployAction:668)
+[Deployer] Parameters to the service 
+
+[DEBUG] [17 Apr 2017 17:42:42,983] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	project = JENKIN_10101IS
+
+[DEBUG] [17 Apr 2017 17:42:42,983] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	deploymentName = 10101CandidateMap
+
+[DEBUG] [17 Apr 2017 17:42:42,983] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	preDeployString = false
+
+[DEBUG] [17 Apr 2017 17:42:42,984] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	force = true
+
+[DEBUG] [17 Apr 2017 17:42:42,984] (DeployerServiceUtils.java:deployAction:680)
+[Deployer] 	reportFilePath = /tmp/Jenkins_WS_10101/build_output_dir/
+
+[DEBUG] [17 Apr 2017 17:42:42,984] (DeployerServiceUtils.java:executeService:1483)
+[Deployer] Entering executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:42:43,826] (DeployerServiceUtils.java:executeService:1535)
+[Deployer] Initiating connection Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:42:43,931] (DeployerServiceUtils.java:executeService:1537)
+[Deployer] Connection Established Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:42:43,932] (DeployerServiceUtils.java:executeService:1539)
+[Deployer] Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:42:43,940] (DeployerServiceUtils.java:executeService:1541)
+[Deployer] Completed Executing Service wm.deployer.UIDeployer:deployToTargets Secure Socket Layer = false
+
+[DEBUG] [17 Apr 2017 17:42:43,961] (DeployerServiceUtils.java:executeService:1576)
+[Deployer] Exiting executeService(String server, String user, String pwd, String packageStr, String service,IData inputDocument) Method
+
+[DEBUG] [17 Apr 2017 17:42:43,961] (DeployerServiceUtils.java:deployAction:709)
+[Deployer Service Status] Stature returned with status error
+
+[DEBUG] [17 Apr 2017 17:42:43,962] (DeployerServiceUtils.java:deployAction:714)
+[Deployer Service Status] Message = [DEP.0005.0199] Deployment failed.
+
+[DEBUG] [17 Apr 2017 17:42:43,963] (DeployerServiceUtils.java:deployAction:726)
+[Deployer] Exiting deployAction(HashMap paramMap) Method
+
+[DEBUG] [17 Apr 2017 17:42:43,964] (ParseDeployerParams.java:addStatusRecordToReport:5092)
+[Deployer] Entering addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[DEBUG] [17 Apr 2017 17:42:43,966] (ParseDeployerParams.java:addStatusRecordToReport:5103)
+[Deployer] Exiting addStatusRecordToReport(int errorCode, String message, boolean isUsageRecord) Method
+
+[ INFO] [17 Apr 2017 17:42:43,966] (ParseDeployerParams.java:parse:1977)
+[[DEP.0100.4.01] Error -999][DEP.0100.-999] Service Error [DEP.0005.0199] Deployment failed.
+

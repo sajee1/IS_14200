@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>Generate from SQL Screen</title>
+    <link rel="StyleSheet" href="css/_wmdb_online_help.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+  <body style="background-color: White; margin-bottom: 25px; margin-left: 25px; margin-right: 25px; margin-top: 0px; padding-top: 0px" onload="WWHUpdate();" onunload="WWHUnload();" onkeydown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onkeypress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onkeyup="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <table align="left" role="presentation">
+      <tr>
+        <td class="WebWorks_Company_Logo_Top">
+          <img src="sag_online.png" />
+        </td>
+      </tr>
+    </table>
+    <br clear="all" />
+    <hr align="left" />
+    <blockquote>
+      <div class="Heading_1"><a name="3_3_7_12_2">Generate from SQL Screen</a></div>
+      <div class="Body"><span class="emphasis"><a name="3_3_7_12_6_2_3">Screen Heading:</a></span> <span class="uicontrol">WmDB &gt; Service Generation &gt; Generate from SQL</span></div>
+      <div class="Body"><a name="3_3_7_12_6_2_5"> </a>  Use the Generate from SQL screen to create a service that performs a SQL statement that you specify.</div>
+      <div class="Body"><a name="3_3_7_12_6_2_7">To access this screen, click </a><span class="uicontrol">Service Generation</span> in the WmDB Navigation panel; the <span class="heading-no-quotes"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_GenNewDatabase.html', '');" title="Generate New Database Service Screen">Generate New Database Service Screen</a></span> will be displayed. Click the <span class="uicontrol">Generate from SQL</span> button. The server displays the Generate from SQL screen, which contains the following:</div>
+      <div class="Definition_Term"><a name="3_3_7_12_6_2_9_2_2">Evaluate</a></div>
+      <div class="Definition_Description"><a name="3_3_7_12_6_2_9_2_4">Opens the </a><span class="heading-no-quotes"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_InputBinding.html', '');" title="Input Binding Generation Screen">Input Binding Generation Screen</a></span>, allowing you to identify the names and data types of the input parameters for the service you are generating. Click <span class="uicontrol">Evaluate</span> after you have supplied the information on this screen.</div>
+      <div class="Definition_Term"><a name="3_3_7_12_6_2_11_2_2">Clear</a></div>
+      <div class="Definition_Description"><a name="3_3_7_12_6_2_11_2_4">Deletes any information in the </a><span class="uicontrol">Enter SQL Statement</span> field and refreshes the screen.</div>
+      <div class="Definition_Term"><a name="3_3_7_12_6_2_13_2_2">Cancel</a></div>
+      <div class="Definition_Description"><a name="3_3_7_12_6_2_13_2_4">Exits the screen without creating the service and returns to the original screen.</a></div>
+      <div class="Definition_Term"><a name="3_3_7_12_6_2_15_2_2">Enter SQL Statement</a></div>
+      <div class="Definition_Description"><a name="3_3_7_12_6_2_15_2_4"> </a> Contains the SQL statement that you want the service to perform. You can specify a statement that is static or include either question marks (?) or template tags in the SQL statement to make it dynamic. The template tags you can use are the same as the tags you use in an output template. When you specify a dynamic SQL statement, the service expects input values to replace the question marks or template tags you specify.</div>
+      <div class="Definition_Term"><a name="3_3_7_12_6_2_17_2_2">Process </a><span class="ph">webMethods</span> template tags (%value, %ifvar, etc.) in this SQL statement</div>
+      <div class="Definition_Description"><a name="3_3_7_12_6_2_17_2_4"> </a>Enables the server o process the SQL statement when you include template tags in the SQL statement. You should select this checkbox if you include template tags in the SQL statement.</div>
+      <div class="Link_List_Title"><a name="3_3_7_12_8_1_2">Related Topics</a></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_AliasMgmt.html', '');" title="Alias Management Screen" name="3_3_7_12_8_1_4">Alias Management Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_NewAlias.html', '');" title="New DB Alias Screen" name="3_3_7_12_8_1_6">New DB Alias Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_EditAlias.html', '');" title="Edit Alias Information Screen" name="3_3_7_12_8_1_8">Edit Alias Information Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_SpecifyConnectParams.html', '');" title="Specify Connection Parameters Screen" name="3_3_7_12_8_1_10">Specify Connection Parameters Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_TablesInDataSource.html', '');" title="Tables in (DataSourceName) Screen" name="3_3_7_12_8_1_12">Tables in (DataSourceName) Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_ColumnsInTablename.html', '');" title="Columns in (TableName) Screen" name="3_3_7_12_8_1_14">Columns in (TableName) Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_GenNewDatabase.html', '');" title="Generate New Database Service Screen" name="3_3_7_12_8_1_16">Generate New Database Service Screen</a></span></div>
+      <div class="Related_Reference">
+        <img src="spacer_24.png" alt="*" border="0" width="24" height="6" /><span class="Link_Text"><a href="javascript:WWHClickedPopup('wmdb_help', 'wmdb_scrn_InputBinding.html', '');" title="Input Binding Generation Screen" name="3_3_7_12_8_1_18">Input Binding Generation Screen</a></span></div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <div>
+      <hr />
+      <div style="font-family: Arial, Verdana, Helvetica, Sans-Serif; font-size: 12px;margin-top: 20px;margin-bottom: 20px;">
+        <span class="xref">
+          <a href="http://documentation.softwareag.com/legal/" target="external_window">Copyright © <span></span><span></span><span>2005</span><span>-2014</span> Software AG, Darmstadt, Germany</a>
+        </span>.</div>
+    </div>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

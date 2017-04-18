@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpTOC version="5.0" xmlns="urn:WebWorks-Help-TOC-Schema">
+  <i t="Help Basics" l="1" />
+  <i t="About this Guide" l="2" />
+  <i t="Screen Descriptions" l="3">
+    <i t="Alias Management Screen" l="4" />
+    <i t="New DB Alias Screen" l="5" />
+    <i t="Edit Alias Information Screen" l="6" />
+    <i t="Change Password Screen" l="7" />
+    <i t="Specify Connection Parameters Screen" l="8" />
+    <i t="Tables in (DataSourceName) Screen" l="9" />
+    <i t="Columns in (TableName) Screen" l="10" />
+    <i t="Generate New Database Service Screen" l="11" />
+    <i t="Generate from SQL Screen" l="12" />
+    <i t="Input Binding Generation Screen" l="13" />
+  </i>
+  <i t="Related Information" l="14">
+    <i t="webMethods Integration Server Administrator’s Guide" l="15" />
+    <i t="WmDB User’s Guide" l="16" />
+  </i>
+  <i t="Copyright" l="17" />
+</WebWorksHelpTOC>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_65" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.deploy.Deployment">
+  <void property="deploymentId">
+   <string>a74df570-4e7a-4376-9d57-fc9b27e389c8</string>
+  </void>
+  <void property="deploymentMapName">
+   <string>10101myDeploymentMap</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="name">
+   <string>10101CandidateMap</string>
+  </void>
+  <void property="projectName">
+   <string>JENKIN_10101IS</string>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

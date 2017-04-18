@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DeployerSpec exitOnError="false" sourceType="Repository">
+	<DeployerServer>
+		<host>pwjkwms01.cloud.ge.com:14200</host>
+		<user>Administrator</user>
+		<pwd>{AES}Y5IgMqjfvkgbg7p5VUZztw==</pwd>
+	</DeployerServer>
+  <Environment>
+		<IS>
+			<isalias name="RepoISTarget2">
+				<!--<host>localhost</host>-->
+				<host>pwnlq0811v01.cloud.ge.com</host>
+				<port>20001</port>
+				<user>Administrator</user>
+				<pwd>{AES}Y5IgMqjfvkgbg7p5VUZztw==</pwd>
+				<useSSL>false</useSSL>
+				<version>9.7</version>
+				<installDeployerResource>true</installDeployerResource>
+				<Test>false</Test>
+			</isalias>
+		<!--	<isalias name="RepoISTarget2ForLogicalServer">
+				<host>pwnlq0811v01.cloud.ge.com</host>
+				<port>20001</port>
+				<user>Administrator</user>
+				<pwd>manage</pwd>
+				<useSSL>false</useSSL>
+				<version>9.7</version>
+				<installDeployerResource>true</installDeployerResource>
+				<Test>false</Test>
+			</isalias> -->
+		</IS>
+	<!--	<ProcessModel>
+			<pmalias name="RepoProdBPMTarget">
+				<host>pwnlq0811v01.cloud.ge.com</host>
+				<port>20001</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</pmalias>	
+		</ProcessModel>
+		<EventServer>
+			<eventserveralias name="RepoProdBPMTarget">
+				<host>pwjkwms01.cloud.ge.com</host>
+				<port>8201</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</eventserveralias>	
+		</EventServer>
+		<RulesServer>
+			<rulesalias name="RepoProdBPMTarget">
+				<host>pwjkwms01.cloud.ge.com</host>
+				<port>8201</port>
+				<user>Administrator</user>
+				<pwd>{DES}vrFIelCdkow=</pwd>
+				<useSSL>false</useSSL>
+				<Test>true</Test>
+			</rulesalias>	
+		</RulesServer>	-->	
+		<Repository>
+			<repalias name="Feb24_Repo">
+				<type>FlatFile</type>
+				<urlOrDirectory>/tmp/Jenkins_WS/build_output_dir/</urlOrDirectory>
+				<Test>true</Test>
+			</repalias>
+		</Repository>	
+	</Environment>
+	<!--<DeploymentSet autoResolve="full|partial|ignore" description="description "
+name="deployment_set " srcAlias="repository "> <Composite name="name "
+srcAlias="repository_alias " type="type "/> <Component
+componentType="component_type " compositeName="name " name="name "
+srcAlias="repository_alias " type="runtime_type "/>
+ -->
+
+	<Projects projectPrefix="ACDL_">
+		<Project description="" ignoreMissingDependencies="true" name="Feb2417IS" overwrite="true" type="Repository">
+
+			<DeploymentSet autoResolve="full" description="" name="Feb2417myDeploymentSet" srcAlias="Feb24_Repo">
+				<!--  The Composite and Component Constructs are independant of the Namespace Types. The Project Automator will support all the Namespace Types -->		
+				<Composite name="Sandeep*" srcAlias="Feb24_Repo" type="IS"/>
+				<!--<Component componentType="isdocumenttype" compositeName="DeployementSmokeTest" displayName="docTypes.subDocs:EmailDetails" name="docTypes.subDocs.EmailDetails" srcAlias="RepoSource" type="IS"/>-->
+			</DeploymentSet>
+			
+			<DeploymentMap description="" name="Feb2417myDeploymentMap"/>			
+			<MapSetMapping mapName="Feb2417myDeploymentMap" setName="Feb2417myDeploymentSet">				
+				<!--<alias type="ProcessModel">RepoProdBPMTarget</alias>-->
+				<alias type="IS">RepoISTarget2</alias>
+				<!--<alias logicalServer="Default" type="IS">RepoISTarget2ForLogicalServer</alias> -->
+			</MapSetMapping>	
+			<DeploymentCandidate description="" mapName="Feb2417myDeploymentMap" name="Feb2417CandidateMap"/>
+		</Project>		
+	</Projects>
+</DeployerSpec>
